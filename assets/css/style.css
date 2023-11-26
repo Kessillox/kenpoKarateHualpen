@@ -2,3 +2,123 @@ body,
 * {
   font-family: "Roboto", sans-serif;
 }
+
+.wrapper {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.bg-secondary {
+  background-color: #3d3d3d !important;
+}
+
+.alert-secondary {
+  color: #f1f1f1;
+  background-color: #4f4f4f;
+  border-color: #4f4f4f;
+}
+
+.alert-secondary .alert-link {
+  color: #34383c;
+}
+
+.border-radio-0 {
+  border-radius: 0 !important;
+  border: 0px;
+}
+
+.bgHeader {
+  background: rgb(9, 9, 10);
+  background: linear-gradient(
+    45deg,
+    rgba(9, 9, 10, 1) 40%,
+    rgba(248, 116, 2, 1) 90%
+  );
+  opacity: 0.8;
+  min-height: 75dvh !important;
+}
+
+.bgBanner {
+  background: rgb(32, 29, 29);
+  background: linear-gradient(
+    45deg,
+    rgba(32, 29, 29, 1) 35%,
+    rgba(248, 26, 2, 1) 88%
+  );
+}
+
+.headerPictory1 {
+  background-image: url(/assets/img/competidor_karate_1.jpg);
+  max-width: 100%;
+  height: 75dvh !important;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.headerPictory2 {
+  background-image: url(/assets/img/competencia_karate_5.jpg);
+  max-width: 100%;
+  height: 75dvh !important;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.headerPictory3 {
+  background-image: url(/assets/img/competencia_karate_6.jpg);
+  max-width: 100%;
+  height: 75dvh !important;
+  background-size: cover;
+  background-position-y: center;
+}
+
+.btnBlack {
+  color: #f1f1f1;
+  background-color: #000 !important;
+  border-color: #000;
+}
+
+.btnBlack:hover {
+  color: #f1f1f1;
+  background-color: red;
+  border-color: red;
+}
+
+.btn-check:focus + .btnBlack,
+.btnBlack:focus {
+  color: #f1f1f1;
+  background-color: red;
+  border-color: red;
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+.btn-check:checked + .btnBlack,
+.btn-check:active + .btnBlack,
+.btnBlack:active,
+.btnBlack.active,
+.show > .btnBlack.dropdown-toggle {
+  color: #f1f1f1;
+  background-color: #000;
+  border-color: red;
+}
+
+.btn-check:checked + .btnBlack:focus,
+.btn-check:active + .btnBlack:focus,
+.btnBlack:active:focus,
+.btnBlack.active:focus,
+.show > .btnBlack.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.5);
+}
+
+.btnBlack:disabled,
+.btnBlack.disabled {
+  color: #000;
+  background-color: #000;
+  border-color: #000;
+}
