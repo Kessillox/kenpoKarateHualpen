@@ -45,6 +45,17 @@ body,
   min-height: 75dvh !important;
 }
 
+.bgEvent {
+  background: rgb(9, 9, 10);
+  background: linear-gradient(
+    45deg,
+    rgba(9, 9, 10, 1) 40%,
+    rgba(248, 116, 2, 1) 90%
+  );
+  opacity: 0.8;
+  min-height: 50dvh !important;
+}
+
 .bgBanner {
   background: rgb(32, 29, 29);
   background: linear-gradient(
@@ -74,6 +85,13 @@ body,
   background-image: url(/assets/img/competencia_karate_6.jpg);
   max-width: 100%;
   height: 75dvh !important;
+  background-size: cover;
+  background-position-y: center;
+}
+.headerPictory4 {
+  background-image: url(/assets/img/competencia_karate_17.jpg);
+  max-width: 100%;
+  height: 50dvh !important;
   background-size: cover;
   background-position-y: center;
 }
