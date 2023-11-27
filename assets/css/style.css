@@ -140,3 +140,15 @@ body,
   background-color: #000;
   border-color: #000;
 }
+
+.text-smaller {
+  font-size: smaller;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 35px;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}

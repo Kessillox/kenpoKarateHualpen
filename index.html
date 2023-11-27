@@ -16,43 +16,47 @@
 <body>
 	<header>
 		<!-- INFORMATION -->
-		<div class="container-fluid">
-			<div class="row border-radio-0 alert alert-secondary py-2 my-0 " role="alert">
-				<div class="col-9">
+		<div class="container-fluid bg-secondary">
+			<div class="row border-radio-0 alert bg-secondary py-2 my-0 wrapper text-white justify-content-between"
+				role="alert">
+				<div class="col-9 px-0">
 					<p class="my-0">Huapén, Chile</p>
 				</div>
-				<div class="col-2">
+				<div class="col-2  px-0 d-flex justify-content-end">
 					<p class="my-0">torneo@kenpohualpen.cl</p>
 				</div>
 			</div>
 		</div>
 		<!-- NAVBAR -->
-		<nav class="navbar navbar-expand-lg bg-dark py-3">
+		<nav class="navbar navbar-dark navbar-expand-lg bg-dark" data-bs-theme="dark" id="home">
 			<div class="container-fluid wrapper">
-				<div class="collapse navbar-collapse justify-content-between">
-					<a class="navbar-brand" href="#">
-						<img src="assets/img/logo.png" width="50px" alt="logo Kenpo Huapén" srcset="" />
-					</a>
+				<a class="navbar-brand" href="#home">
+					<img src="/assets/img/logo.png" width="50px" alt="">
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link active text-white" aria-current="page" href="#">
-								Home
-							</a>
+							<a class="nav-link text-white" href="#home">Inicio</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white" href="#">Kenpo Karate</a>
+							<a class="nav-link text-white" href="#about">Nosotros</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white" href="#">Evento</a>
+							<a class="nav-link text-white" href="#event">Evento</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white" href="#">Ubicación</a>
+							<a class="nav-link text-white" href="#location">Ubicación</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link text-white" href="#">Contactanos</a>
+							<a class="nav-link text-white" href="#contactUs">Contactános</a>
 						</li>
 					</ul>
 				</div>
+			</div>
 			</div>
 		</nav>
 		<!-- HEADER -->
@@ -62,10 +66,13 @@
 					<div class="carousel-item active" data-bs-interval="10000">
 						<div class="headerPictory1">
 							<div class="d-block bgHeader sizeHeader">
-								<div class="carousel-caption d-none d-md-block">
-									<h1 class="fw-bolder">Kenpo Karate La Floresta Hualpén</h1>
-									<h4>Sistema de defensa personal Ed Parker</h4>
-									<button type="button" class="btn btnBlack btn-lg px-5">Inscríbete</button>
+								<div class="carousel-caption d-block">
+									<h1 class="fw-bolder text-start text-md-center">Kenpo Karate La Floresta Hualpén</h1>
+									<h4 class="text-start text-md-center">Sistema de defensa personal Ed Parker</h4>
+									<a href="https://k1xic6x246l.typeform.com/to/qLSmrwRl" target="_blank" class="btn btn-warning px-5"
+										tabindex="-1" role="button" aria-disabled="true">
+										Inscríbete
+									</a>
 								</div>
 							</div>
 						</div>
@@ -73,10 +80,13 @@
 					<div class="carousel-item" data-bs-interval="2000">
 						<div class="headerPictory2">
 							<div class="d-block bgHeader sizeHeader">
-								<div class="carousel-caption d-none d-md-block">
-									<h1 class="fw-bolder">Kenpo Karate La Floresta Hualpén</h1>
-									<h4>Sistema de defensa personal Ed Parker</h4>
-									<button type="button" class="btn btnBlack btn-lg px-5">Inscríbete</button>
+								<div class="carousel-caption d-block">
+									<h1 class="fw-bolder text-start text-md-center">Kenpo Karate La Floresta Hualpén</h1>
+									<h4 class="text-start text-md-center">Sistema de defensa personal Ed Parker</h4>
+									<a href="https://k1xic6x246l.typeform.com/to/qLSmrwRl" target="_blank" class="btn btn-warning px-5"
+										tabindex="-1" role="button" aria-disabled="true">
+										Inscríbete
+									</a>
 								</div>
 							</div>
 						</div>
@@ -84,10 +94,13 @@
 					<div class="carousel-item">
 						<div class="headerPictory3">
 							<div class="d-block bgHeader sizeHeader">
-								<div class="carousel-caption d-none d-md-block">
-									<h1 class="fw-bolder">Kenpo Karate La Floresta Hualpén</h1>
-									<h4>Sistema de defensa personal Ed Parker</h4>
-									<button type="button" class="btn btnBlack btn-lg px-5">Inscríbete</button>
+								<div class="carousel-caption d-block">
+									<h1 class="fw-bolder text-start text-md-center">Kenpo Karate La Floresta Hualpén</h1>
+									<h4 class="text-start text-md-center">Sistema de defensa personal Ed Parker</h4>
+									<a href="https://k1xic6x246l.typeform.com/to/qLSmrwRl" target="_blank" class="btn btn-warning px-5"
+										tabindex="-1" role="button" aria-disabled="true">
+										Inscríbete
+									</a>
 								</div>
 							</div>
 						</div>
@@ -114,10 +127,10 @@
 			</div>
 		</section>
 		<!-- ACERCA -->
-		<section id="#about">
+		<section id="about">
 			<div class="container-fluid">
 				<div class="row wrapper d-flex align-item-center mb-5">
-					<div class="col-7">
+					<div class="col-12 col-md-7">
 						<div class="my-5">
 							<h2>Bienvenidos,</h2>
 							<h3>Kenpo Karate La Foresta Hualpén.</h3>
@@ -138,7 +151,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-3 d-flex align-items-center mx-auto">
+					<div class="col-12 col-md-5 d-flex align-items-center justify-content-center mx-auto">
 						<img src="/assets/img/logoParche.jpg" alt="lofo escuela karate" srcset="">
 					</div>
 				</div>
@@ -146,7 +159,7 @@
 		</section>
 		<!-- BANNER 2 -->
 		<section id="#banner2">
-			<div class="border-radio-0 alert bgBanner">
+			<div class="border-radio-0 alert bgBanner py-4">
 				<h5 class="text-white fw-normal text-center py-0 my-0">Participa este 20 y 21 de enero 2024</h5>
 				<h5 class="text-white fw-normal text-center py-0 my-0">Polideportivo Escuela República del Perú, Hualpén
 					Chile.
@@ -154,16 +167,16 @@
 			</div>
 		</section>
 		<!-- EVENTO -->
-		<section id="#event">
+		<section id="event">
 			<div class="container-fluid">
-				<div class="row wrapper my-5">
+				<div class="row wrapper my-5 align-items-center">
 					<div class="col-12">
 						<h3>¿Cómo puedo participar?</h3>
 					</div>
-					<div class="col-5">
-						<img src="/assets/img/karate_publico_1.jpg" width="300px" alt="" srcset="">
+					<div class="col-4 col-md-5">
+						<img src="/assets/img/karate_publico_1.jpg" width="100%" alt="">
 					</div>
-					<div class="col-7">
+					<div class="col-8 col-md-7">
 						<h3>Participante</h3>
 						<p>
 							Te invitamos a participar y aprender de Kenpo Karate y otros estilos de las diferentes Escuelas, Academias
@@ -179,14 +192,14 @@
 					<div class="col-12">
 						<h3>Competidor</h3>
 					</div>
-					<div class="col-12">
+					<div class="col-12 py-3">
 						<p>
 							Te invitamos a participar como competidor del torneo Kenpo Karate Copa Hualpen 2024, invitadas Escuelas de
 							Kenpo Karate de diferentes asociaciones, Escuelas De Shoring Ryu, Shoto Kan, Taekwondo. Podrás participar
 							en los siguientes estilos.
 						</p>
 					</div>
-					<div class="col-3">
+					<div class="col-6 col-md-3">
 						<div class="card">
 							<img src="/assets/img/competencia_karate_16.jpg" class="card-img-top" alt="competencia de formas">
 							<div class="card-body">
@@ -197,7 +210,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-6 col-md-3">
 						<div class="card">
 							<img src="/assets/img/competencia_karate_7.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
@@ -209,7 +222,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-6 col-md-3">
 						<div class="card">
 							<img src="/assets/img/competencia_karate_14.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
@@ -222,7 +235,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-6 col-md-3">
 						<div class="card">
 							<img src="/assets/img/competencia_karate_2.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
@@ -236,21 +249,30 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-12 d-flex justify-content-end">
+						<a class="icon-link text-white" href="/assets/pdf/Bases_Torneo_Nacional_Kenpo_Karate_Copa_Hualpen.pdf">
+							consulta las bases del torneo aqui
+						</a>
+					</div>
 				</div>
-			</div>
 		</section>
 		<!-- BANNER 3 -->
 		<section id="#banner3">
-			<div class="border-radio-0 alert bgBanner d-flex justify-content-center">
-				<button type="button" class="btn btnBlack fw-bold px-5">Inscríbete</button>
+			<div class="border-radio-0 alert bgBanner d-flex justify-content-center py-4">
+				<a href="https://k1xic6x246l.typeform.com/to/qLSmrwRl" target="_blank" class="btn btnBlack px-5" tabindex="-1"
+					role="button" aria-disabled="true">
+					Inscríbete
+				</a>
 			</div>
 		</section>
 		<!-- QUE HACEMOS -->
-		<section id="#activity">
+		<section id="activity">
 			<div class="container-fluid">
 				<div class="row wrapper my-5 justify-content-center">
-					<div class="col-12">¿Qué hacemos?</div>
-					<div class="col-4">
+					<div class="col-12">
+						<h3>¿Qué hacemos?</h3>
+					</div>
+					<div class="col-6 col-md-4">
 						<div class="card">
 							<img src="/assets/img/competencia_karate_14.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
@@ -260,7 +282,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-6 col-md-4">
 						<div class="card">
 							<img src="/assets/img/competencia_karate_14.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
@@ -270,7 +292,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-6 col-md-4">
 						<div class="card">
 							<img src="/assets/img/competencia_karate_14.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
@@ -280,7 +302,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-6 col-md-4">
 						<div class="card">
 							<img src="/assets/img/competencia_karate_14.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
@@ -290,7 +312,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-6 col-md-4">
 						<div class="card">
 							<img src="/assets/img/competencia_karate_14.jpg" class="card-img-top" alt="...">
 							<div class="card-body">
@@ -300,122 +322,153 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
 		</section>
 		<!-- BANNER 4 -->
 		<section id="#banner4">
-			<div class="border-radio-0 alert bgBanner my-0">
-				<h5 class="text-white  fw-normal text-center py-0 my-0">Participa este 20 y 21 de enero 2024</h5>
-				<h5 class="text-white  fw-normal text-center py-0 my-0">Polideportivo Escuela República del Perú, Hualpén
+			<div class="border-radio-0 alert bgBanner my-0 py-4">
+				<h5 class="text-white fw-normal text-center py-0 my-0">Participa este 20 y 21 de enero 2024</h5>
+				<h5 class="text-white fw-normal text-center py-0 my-0">Polideportivo Escuela República del Perú, Hualpén
 					Chile.
 				</h5>
 			</div>
 		</section>
 		<!-- UBICACION DE LAS ESCUELAS -->
-		<section id="#location" class="bg-dark">
+		<section id="location">
 			<div class="container-fluid bg-dark text-white">
 				<div class="row wrapper py-5">
-					<div class="col-6">
-						<img src="" alt="">
+					<div class="row py-4 border-1 align-items-center">
+						<div class="col-6">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1343.179992952889!2d-73.09930584924736!3d-36.80321911200154!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669ca7cddac61c7%3A0xea3c7a8ee1d11dc1!2zUGplLiBOdWV2ZSA1ODAxLCBIdWFscMOpbiwgQsOtbyBCw61v!5e0!3m2!1ses!2scl!4v1701041775044!5m2!1ses!2scl"
+								width="90%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+						<div class="col-6">
+							<h4>Escuela IKKA KENPO Karate La Floresta 2</h4>
+							<h5>Pasaje Nueve 5801, La Foresta 2, Hualpen</h5>
+							<p>
+								Horarios <br>
+								Niños: 18.00 a 19.00 <br />
+								Adultos: 19.30 a 21.00
+							</p>
+						</div>
 					</div>
-					<div class="col-6">
-						<p>Escuela IKKA KENPO Karate La Floresta 2</p>
-						<p>Pasaje 9, La Foresta 2, Hualpen</p>
-						<p>Horario</p>
-						<p>
-							Niños: 18.00 a 19.00 <br>
-							Adultos: 19.30 a 21.00
-						</p>
-					</div>
-					<div class="col-6">
-						<p>Escuela IKKA KENPO Karate La Floresta 6</p>
-						<p>Avenida Albacete #730, Jardines de la Floresta VI</p>
-						<p>Horario</p>
-						<p>
-							Niños: 18.00 a 19.00
-							Adultos: 19.30 a 21.00
-						</p>
-					</div>
-					<div class="col-6">
-						<img src="" alt="">
+					<div class="row align-items-center">
+						<div class="col-6">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1166.3933088580022!2d-73.11565549441914!3d-36.797629912337484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669caf47bdf5347%3A0xf1cf4a89346cc757!2zQWxiYWNldGUgNzMwLCA0NjAzNTY1IENvbmNlcGNpw7NuLCBIdWFscMOpbiwgQsOtbyBCw61v!5e0!3m2!1ses!2scl!4v1701041243008!5m2!1ses!2scl"
+								width="90%" height="250px" style="border:0;" allowfullscreen="" loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+						<div class="col-6">
+							<h4>Escuela IKKA KENPO Karate La Floresta 6</h4>
+							<h5>Avenida Albacete #730, Jardines de la Floresta VI</h5>
+							<p>
+								Horarios <br />
+								Niños: 18.00 a 19.00 <br />
+								Adultos: 19.30 a 21.00
+							</p>
+						</div>
+
 					</div>
 				</div>
 			</div>
 		</section>
+		<!-- Evento -->
 		<section id="#callEvent">
 			<div class="headerPictory4">
 				<div class="d-flex align-items-center justify-content-center bgEvent">
-					<div class="d-md-block text-center">
+					<div class="d-md-block text-center wrapper">
 						<h1 class="fw-bolder text-white">Participa este 20 y 21 de enero 2024</h1>
 						<h2 class="text-white">Polideportivo Escuela República del Perú, Hualpén Chile.</h2>
-						<button type="button" class="btn btnBlack btn-lg px-5">Inscríbete</button>
+						<a href="https://k1xic6x246l.typeform.com/to/qLSmrwRl" target="_blank" class="btn btn-warning px-5"
+							tabindex="-1" role="button" aria-disabled="true">
+							Inscríbete
+						</a>
 					</div>
 				</div>
 			</div>
 		</section>
+		<!-- Carusel -->
 		<section id="#imageActivity">
-      <div class="container-fluid bg-dark text-white py-3">
+			<div class="container-fluid bg-dark text-white py-3">
 				<div class="row wrapper my-5 justify-content-center">
 					<div class="col-12">
-            <h3>Nuestras Actividades</h3>
-          </div>
-          <!-- Carrusel -->
-        </div>
-      </div>
+						<h3>Nuestras Actividades</h3>
+					</div>
+					<!-- Carrusel -->
+				</div>
+			</div>
 		</section>
-		<section id="#contactUs">
-      <div class="container-fluid">
+		<section id="contactUs">
+			<div class="container-fluid">
 				<div class="row wrapper my-5 justify-content-center">
 					<div class="col-12">
-            <h3>Contáctanos</h3>
-          </div>
-          <div class="col-12 my-3">
-            <div class="row d-flex align-items-center">
-              <div class="col-md-6 col-12 d-flex align-items-center justify-content-center order-first order-md-last">
-                <img src="/assets/img/logo.png" alt="Logo Kenpo Karate" width="60%">
-              </div>
-              <div class="col-md-6 col-12">
-                <div class="mb-3">
-                  <label for="formName" class="form-label">Nombre</label>
-                  <input type="text" class="form-control" id="formName" name="name" placeholder="Ingresa tu nombre">
-                </div>
-                <div class="mb-3">
-                  <label for="formEmail" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="formEmail" name="email" placeholder="Ingresa tu correo">
-                </div>
-                <div class="mb-3">
-                  <label for="formMessage" class="form-label">Mensaje</label>
-                  <textarea class="form-control" id="formMessage" name="message" cols="30" rows="10"></textarea>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+						<h3>Contáctanos</h3>
+					</div>
+					<div class="col-12 my-3">
+						<div class="row d-flex align-items-center">
+							<div class="col-md-6 col-12 d-flex align-items-center justify-content-center order-first order-md-last">
+								<img src="/assets/img/logo.png" alt="Logo Kenpo Karate" width="50%">
+							</div>
+							<div class="col-md-6 col-12">
+								<div class="mb-3">
+									<label for="formName" class="form-label">Nombre</label>
+									<input type="text" class="form-control" id="formName" name="name" placeholder="Ingresa tu nombre">
+								</div>
+								<div class="mb-3">
+									<label for="formEmail" class="form-label">Email</label>
+									<input type="email" class="form-control" id="formEmail" name="email" placeholder="Ingresa tu correo">
+								</div>
+								<div class="mb-3">
+									<label for="formMessage" class="form-label">Mensaje</label>
+									<textarea class="form-control" id="formMessage" name="message" cols="30" rows="10"></textarea>
+								</div>
+								<button class="btn btn-dark btn-lg px-5" type="button">Enviar</button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 	<footer>
-    <!-- informacion -->
-    <div class="container-fluid bg-dark text-white">
-      <div class="row wrapper">
-        <div class="col-12 p-3">
-          <div class="row">
-            <div class="col-6">
-              <h3>Email</h3>
-              <p>torneo@kenpohualpen.cl</p>
-            </div>
-            <div class="col-6"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- koders -->
-    <div class="container-fluid bg-secondary text-white text-center py-2">
-      <h4>Creado por Koders</h4>
-    </div>
+		<!-- informacion -->
+		<div class="container-fluid bg-dark text-white">
+			<div class="row wrapper">
+				<div class="col-12 p-3">
+					<div class="row">
+						<div class="col-6">
+							<h3>Email</h3>
+							<p>torneo@kenpohualpen.cl</p>
+						</div>
+						<div class="col-6"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- koders -->
+		<div class="container-fluid bg-secondary text-white text-center py-2">
+			<p class="py-0 my-0">Creado por Koders</p>
+		</div>
+		<div class="d-flex justify-content-end">
+			<a href="#home" class="d-flex justify-content-end fixed-bottom mx-5">
+				<svg fill="#000000" width="50px" height="50px" viewBox="0 0 24 24" id="triple-up-sign" data-name="Line Color"
+					xmlns="http://www.w3.org/2000/svg" class="icon line-color">
+					<polyline id="secondary" points="19 15.5 12 8.5 5 15.5"
+						style="fill: none; stroke: #212529; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+					</polyline>
+					<polyline id="primary" points="5 10 12 3 19 10"
+						style="fill: none; stroke: red; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;">
+					</polyline>
+				</svg>
+			</a>
+		</div>
 	</footer>
-	<script src="/assets/js/bootstrap.bundle.js"></script>
+	<script src=" /assets/js/bootstrap.bundle.js"></script>
+	<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 	<script src="/assets/js/main.js"></script>
 </body>
 
