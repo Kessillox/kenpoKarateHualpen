@@ -66,7 +66,7 @@ body,
 }
 
 .headerPictory1 {
-  background-image: url(assets/img/competidor_karate_1.jpg);
+  background-image: url(../img/competidor_karate_1.jpg);
   max-width: 100%;
   height: 75dvh !important;
   background-size: cover;
@@ -75,7 +75,7 @@ body,
 }
 
 .headerPictory2 {
-  background-image: url(assets/img/competencia_karate_5.jpg);
+  background-image: url(../img/competencia_karate_5.jpg);
   max-width: 100%;
   height: 75dvh !important;
   background-size: cover;
@@ -84,7 +84,7 @@ body,
 }
 
 .headerPictory3 {
-  background-image: url(assets/img/competencia_karate_6.jpg);
+  background-image: url(../img/competencia_karate_6.jpg);
   max-width: 100%;
   height: 75dvh !important;
   background-size: cover;
@@ -92,7 +92,7 @@ body,
   background-position-x: center;
 }
 .headerPictory4 {
-  background-image: url(assets/img/competencia_karate_17.jpg);
+  background-image: url(../img/competencia_karate_17.jpg);
   max-width: 100%;
   height: 50dvh !important;
   background-size: cover;
@@ -101,7 +101,7 @@ body,
 }
 
 .cardImgActivity1 {
-  background-image: url(assets/img/competidor_karate_1.jpg);
+  background-image: url(../img/competidor_karate_1.jpg);
   max-width: 100%;
   height: 30dvh;
   background-size: cover;
@@ -112,7 +112,7 @@ body,
 }
 
 .cardImgActivity2 {
-  background-image: url(assets/img/competencia_karate_10.jpg);
+  background-image: url(../img/competencia_karate_10.jpg);
   max-width: 100%;
   height: 30dvh;
   background-size: cover;
@@ -123,7 +123,7 @@ body,
 }
 
 .cardImgActivity3 {
-  background-image: url(assets/img/competencia_karate_3.jpg);
+  background-image: url(../img/competencia_karate_3.jpg);
   max-width: 100%;
   height: 30dvh;
   background-size: cover;
@@ -134,7 +134,7 @@ body,
 }
 
 .cardImgActivity4 {
-  background-image: url(assets/img/competidor_karate_6.jpg);
+  background-image: url(../img/competidor_karate_6.jpg);
   max-width: 100%;
   height: 30dvh;
   background-size: cover;
@@ -145,7 +145,7 @@ body,
 }
 
 .cardImgActivity5 {
-  background-image: url(assets/img/competencia_karate_17.jpg);
+  background-image: url(../img/competencia_karate_17.jpg);
   max-width: 100%;
   height: 30dvh;
   background-size: cover;
