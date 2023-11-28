@@ -108,13 +108,9 @@
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
 					data-bs-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Previous</span>
 				</button>
 				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
 					data-bs-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Next</span>
 				</button>
 			</div>
 		</div>
@@ -123,7 +119,8 @@
 		<!-- BANNER 1 -->
 		<section id="#banner1">
 			<div class="border-radio-0 alert bgBanner d-flex justify-content-center">
-				<h5 class="text-white fw-bold py-1">¡NO TE PIERDAS NUESTRO PRÓXIMO TORNEO!</h5>
+				<h5 class="text-white fw-bold py-1 d-none d-md-block">¡NO TE PIERDAS NUESTRO PRÓXIMO TORNEO!</h5>
+				<h6 class="text-white fw-bold py-1 d-md-none">¡NO TE PIERDAS NUESTRO PRÓXIMO TORNEO!</h6>
 			</div>
 		</section>
 		<!-- ACERCA -->
@@ -159,11 +156,17 @@
 		</section>
 		<!-- BANNER 2 -->
 		<section id="#banner2">
-			<div class="border-radio-0 alert bgBanner py-4">
+			<div class="border-radio-0 alert bgBanner py-4 d-none d-md-block">
 				<h5 class="text-white fw-normal text-center py-0 my-0">Participa este 20 y 21 de enero 2024</h5>
 				<h5 class="text-white fw-normal text-center py-0 my-0">Polideportivo Escuela República del Perú, Hualpén
 					Chile.
 				</h5>
+			</div>
+			<div class="border-radio-0 alert bgBanner py-4 d-md-none">
+				<p class="text-white fw-normal text-center py-0 my-0">Participa este 20 y 21 de enero 2024</p>
+				<p class="text-white fw-normal text-center py-0 my-0">Polideportivo Escuela República del Perú, <br> Hualpén
+					Chile.
+				</p>
 			</div>
 		</section>
 		<!-- EVENTO -->
@@ -171,12 +174,12 @@
 			<div class="container-fluid">
 				<div class="row wrapper my-5 align-items-center">
 					<div class="col-12">
-						<h3>¿Cómo puedo participar?</h3>
+						<h2 class="py-2">¿Cómo puedo participar?</h2>
 					</div>
-					<div class="col-4 col-md-5">
+					<div class="col-12 col-md-5 order-1 order-md-0">
 						<img src="assets/img/karate_publico_1.jpg" width="100%" alt="">
 					</div>
-					<div class="col-8 col-md-7">
+					<div class="col-12 col-md-7 order-0 order-md-1">
 						<h3>Participante</h3>
 						<p>
 							Te invitamos a participar y aprender de Kenpo Karate y otros estilos de las diferentes Escuelas, Academias
@@ -188,7 +191,7 @@
 				</div>
 			</div>
 			<div class="container-fluid bg-dark text-white py-4">
-				<div class="row wrapper my-5">
+				<div class="row wrapper my-4">
 					<div class="col-12">
 						<h3>Competidor</h3>
 					</div>
@@ -199,10 +202,11 @@
 							en los siguientes estilos.
 						</p>
 					</div>
-					<div class="col-6 col-md-3">
+					<div class="col-12 col-md-3">
 						<div class="card">
-							<img src="assets/img/competencia_karate_16.jpg" class="card-img-top" alt="competencia de formas">
-							<div class="card-body">
+							<img src="assets/img/competencia_karate_16.jpg" class="card-img-top order-1 order-md-0"
+								alt="competencia de formas">
+							<div class="card-body order-0 order-md-1">
 								<h5 class="card-title">Formas</h5>
 								<p class="card-text">
 									Se evaluarán las formas <br> - Americanas, <br> - Kata Japonesa, <br> - Poom Sae Coreano.
@@ -210,10 +214,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-6 col-md-3">
+					<div class="col-12 col-md-3">
 						<div class="card">
-							<img src="assets/img/competencia_karate_7.jpg" class="card-img-top" alt="...">
-							<div class="card-body">
+							<img src="assets/img/competencia_karate_7.jpg" class="card-img-top order-1 order-md-0" alt="...">
+							<div class="card-body order-0 order-md-1">
 								<h5 class="card-title">Defensas Personales</h5>
 								<p class="card-text">
 									Defensas Personales Aplicadas correspondientes al programa de la IKKA o su equivalente en las
@@ -222,10 +226,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-6 col-md-3">
+					<div class="col-12 col-md-3">
 						<div class="card">
-							<img src="assets/img/competencia_karate_14.jpg" class="card-img-top" alt="...">
-							<div class="card-body">
+							<img src="assets/img/competencia_karate_14.jpg" class="card-img-top order-1 order-md-0" alt="...">
+							<div class="card-body order-0 order-md-1">
 								<h5 class="card-title">
 									Combate Al Punto <br> (Point Fighter)
 								</h5>
@@ -235,10 +239,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-6 col-md-3">
+					<div class="col-12 col-md-3">
 						<div class="card">
-							<img src="assets/img/competencia_karate_2.jpg" class="card-img-top" alt="...">
-							<div class="card-body">
+							<img src="assets/img/competencia_karate_2.jpg" class="card-img-top order-1 order-md-0" alt="...">
+							<div class="card-body order-0 order-md-1">
 								<h5 class="card-title">
 									Combate Light <br>
 									(Litgh Contact)
@@ -274,7 +278,7 @@
 					</div>
 					<div class="col-6 col-md-4">
 						<div class="card">
-							<div class="cardImgActivity1" style="height: 30dvh;"></div>
+							<div class="cardImgActivity1" style="height: 20dvh;"></div>
 							<div class="card-body">
 								<h5 class="card-title text-center">
 									Defensa Personal
@@ -284,7 +288,7 @@
 					</div>
 					<div class="col-6 col-md-4">
 						<div class="card">
-							<div class="cardImgActivity2" style="height: 30dvh;"></div>
+							<div class="cardImgActivity2" style="height: 20dvh;"></div>
 							<div class="card-body">
 								<h5 class="card-title text-center">
 									Programa Kenpo Karate IKKA
@@ -294,7 +298,7 @@
 					</div>
 					<div class="col-6 col-md-4">
 						<div class="card">
-							<div class="cardImgActivity3" style="height: 30dvh;"></div>
+							<div class="cardImgActivity3" style="height: 20dvh;"></div>
 							<div class="card-body">
 								<h5 class="card-title text-center">
 									Acondicionamiento Físico
@@ -304,7 +308,7 @@
 					</div>
 					<div class="col-6 col-md-4">
 						<div class="card">
-							<div class="cardImgActivity4" style="height: 30dvh;"></div>
+							<div class="cardImgActivity4" style="height: 20dvh;"></div>
 							<div class="card-body">
 								<h5 class="card-title text-center">
 									Disciplina - Valores
@@ -314,7 +318,7 @@
 					</div>
 					<div class="col-6 col-md-4">
 						<div class="card">
-							<div class="cardImgActivity5" style="height: 30dvh;"></div>
+							<div class="cardImgActivity5" style="height: 20dvh;"></div>
 							<div class="card-body">
 								<h5 class="card-title text-center">
 									Familia - Estilo de Vida
@@ -338,13 +342,13 @@
 			<div class="container-fluid bg-dark text-white">
 				<div class="row wrapper py-5">
 					<div class="row py-4 border-1 align-items-center">
-						<div class="col-6">
+						<div class="col-12 col-md-6">
 							<iframe
 								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1343.179992952889!2d-73.09930584924736!3d-36.80321911200154!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669ca7cddac61c7%3A0xea3c7a8ee1d11dc1!2zUGplLiBOdWV2ZSA1ODAxLCBIdWFscMOpbiwgQsOtbyBCw61v!5e0!3m2!1ses!2scl!4v1701041775044!5m2!1ses!2scl"
 								width="90%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
 								referrerpolicy="no-referrer-when-downgrade"></iframe>
 						</div>
-						<div class="col-6">
+						<div class="col-12 col-md-6">
 							<h4>Escuela IKKA KENPO Karate La Floresta 2</h4>
 							<h5>Pasaje Nueve 5801, La Foresta 2, Hualpen</h5>
 							<p>
@@ -355,13 +359,13 @@
 						</div>
 					</div>
 					<div class="row align-items-center">
-						<div class="col-6">
+						<div class="col-12 col-md-12">
 							<iframe
 								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1166.3933088580022!2d-73.11565549441914!3d-36.797629912337484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669caf47bdf5347%3A0xf1cf4a89346cc757!2zQWxiYWNldGUgNzMwLCA0NjAzNTY1IENvbmNlcGNpw7NuLCBIdWFscMOpbiwgQsOtbyBCw61v!5e0!3m2!1ses!2scl!4v1701041243008!5m2!1ses!2scl"
 								width="90%" height="250px" style="border:0;" allowfullscreen="" loading="lazy"
 								referrerpolicy="no-referrer-when-downgrade"></iframe>
 						</div>
-						<div class="col-6">
+						<div class="col-12 col-md-12">
 							<h4>Escuela IKKA KENPO Karate La Floresta 6</h4>
 							<h5>Avenida Albacete #730, Jardines de la Floresta VI</h5>
 							<p>
@@ -391,16 +395,15 @@
 			</div>
 		</section>
 		<!-- Carusel -->
-		<section id="#imageActivity">
+		<!-- <section id="#imageActivity">
 			<div class="container-fluid bg-dark text-white py-3">
 				<div class="row wrapper my-5 justify-content-center">
 					<div class="col-12">
 						<h3>Nuestras Actividades</h3>
 					</div>
-					<!-- Carrusel -->
-				</div>
-			</div>
-		</section>
+		</div>
+		</div>
+		</section> -->
 		<section id="contactUs">
 			<div class="container-fluid">
 				<div class="row wrapper my-5 justify-content-center">
@@ -427,7 +430,6 @@
 								</div>
 								<button class="btn btn-dark btn-lg px-5" type="button">Enviar</button>
 							</div>
-
 						</div>
 					</div>
 				</div>
