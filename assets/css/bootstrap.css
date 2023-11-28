@@ -6150,11 +6150,11 @@ fieldset:disabled .btn {
   justify-content: center;
   width: 15%;
   padding: 0;
-  color: #fff;
+  color: transparent;
   text-align: center;
-  background: none;
+  background: transparent;
   border: 0;
-  opacity: 0.5;
+  opacity: 0;
   transition: opacity 0.15s ease;
 }
 @media (prefers-reduced-motion: reduce) {
