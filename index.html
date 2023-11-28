@@ -10,7 +10,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
 		rel="stylesheet" />
-	<link rel="stylesheet" href="assets/css/style.css?v=10001" />
+	<link rel="stylesheet" href="assets/css/style.css?v=10002" />
 </head>
 
 <body>
@@ -71,7 +71,7 @@
 									<h4 class="text-start text-md-center">Sistema de defensa personal Ed Parker</h4>
 									<a href="https://k1xic6x246l.typeform.com/to/qLSmrwRl" target="_blank" class="btn btn-warning px-5"
 										tabindex="-1" role="button" aria-disabled="true">
-										Inscríbete
+										Inscríbete al Torneo
 									</a>
 								</div>
 							</div>
@@ -85,7 +85,7 @@
 									<h4 class="text-start text-md-center">Sistema de defensa personal Ed Parker</h4>
 									<a href="https://k1xic6x246l.typeform.com/to/qLSmrwRl" target="_blank" class="btn btn-warning px-5"
 										tabindex="-1" role="button" aria-disabled="true">
-										Inscríbete
+										Inscríbete al Torneo
 									</a>
 								</div>
 							</div>
@@ -99,7 +99,7 @@
 									<h4 class="text-start text-md-center">Sistema de defensa personal Ed Parker</h4>
 									<a href="https://k1xic6x246l.typeform.com/to/qLSmrwRl" target="_blank" class="btn btn-warning px-5"
 										tabindex="-1" role="button" aria-disabled="true">
-										Inscríbete
+										Inscríbete al Torneo
 									</a>
 								</div>
 							</div>
@@ -415,10 +415,10 @@
 							<div class="col-md-6 col-12 d-flex align-items-center justify-content-center order-first order-md-last">
 								<img src="assets/img/logo.png" alt="Logo Kenpo Karate" width="50%">
 							</div>
-							<div class="col-md-6 col-12">
+							<form class="col-md-6 col-12" method="post" action="sendbymail.php">
 								<div class="mb-3">
 									<label for="formName" class="form-label">Nombre</label>
-									<input type="text" class="form-control" id="formName" name="name" placeholder="Ingresa tu nombre">
+									<input type="text" class="form-control" id="formName" name="nombre" placeholder="Ingresa tu nombre">
 								</div>
 								<div class="mb-3">
 									<label for="formEmail" class="form-label">Email</label>
@@ -426,10 +426,10 @@
 								</div>
 								<div class="mb-3">
 									<label for="formMessage" class="form-label">Mensaje</label>
-									<textarea class="form-control" id="formMessage" name="message" cols="30" rows="10"></textarea>
+									<textarea class="form-control" id="formMessage" name="mensaje" cols="30" rows="10"></textarea>
 								</div>
-								<button class="btn btn-dark btn-lg px-5" type="button">Enviar</button>
-							</div>
+								<button class="btn btn-dark btn-lg px-5" type="submit">Enviar</button>
+							</form>
 						</div>
 					</div>
 				</div>
