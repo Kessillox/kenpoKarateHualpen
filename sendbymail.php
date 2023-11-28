@@ -4,7 +4,7 @@ if (isset($_POST['email'])) {
 
     // Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
     $email_to = "torneo@kenpohualpen.cl";
-    $email_subject = "Formulario de Contacto - Tenpo Huelpen";
+    $email_subject = "Formulario de Contacto - Kenpo Huelpen";
     $email_from = "torneo@kenpohualpen.cl";
 
     // Aquí se deberían validar los datos ingresados por el usuario
@@ -41,13 +41,13 @@ if (isset($_POST['email'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Envio de formulario - Tenpo Hualpen</title>
+    <title>Envio de formulario - Kenpo Hualpen</title>
 </head>
 
 <body>
     <script>
         alert('<?php echo $mensaje; ?>');
-        window.location = 'https://www.checkdigital.cl/';
+        window.location = 'https://www.kenpohualpen.cl';
     </script>
 </body>
 
